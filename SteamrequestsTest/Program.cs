@@ -18,7 +18,7 @@ namespace SteamrequestsTest
         {
             
             var rsa = new Rsa();
-            string pass = "iVeg300gevi";
+            string pass = "pass";
 
             WebClient client = new WebClient();
             string jsonKey = client.DownloadString("https://steamcommunity.com/login/getrsakey/?username=brusdamson");
